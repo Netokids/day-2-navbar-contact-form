@@ -16,7 +16,7 @@
             <a href="index.html">Home</a>
           </li>
           <li>
-            <a href="blog.html">Blog</a>
+            <a href="blog.html">My Project</a>
           </li>
         </ul>
       </div>
@@ -28,34 +28,36 @@
     <!-- Form Contact -->
     <div class="form-contact">
       <div class="container-form">
+        <h1>GET IN TOUCH</h1>
         <form>
           <div>
             <label for="input-name">Name</label>
-            <input id="input-name" type="text" />
+            <input id="nama" type="text" />
           </div>
           <div>
             <label for="input-email">Email</label>
-            <input id="input-email" type="text" />
+            <input id="email" type="text" />
           </div>
           <div>
             <label for="input-phone">Phone Number</label>
-            <input id="input-phone" type="text" />
+            <input id="phone" type="text" />
           </div>
           <div>
             <label for="input-subject">Subject</label>
-            <select id="input-subject">
-              <option value="Frontend">Frontend</option>
-              <option value="Backend">Backend</option>
+            <select id="subject">
               <option value="Fullstack">Fullstack</option>
+              <option value="Backend">Backend</option>
+              <option value="Frontend">Front End</option>
             </select>
           </div>
           <div>
             <label for="message">Your Message</label>
-            <textarea id="input-message"></textarea>
+            <textarea id="message"></textarea>
           </div>
-          <button type="button">Submit</button>
+          <button type="button" onclick="submitbtn()">Submit</button>
         </form>
       </div>
     </div>
+    <script src="index.js"></script>
   </body>
 </html>
